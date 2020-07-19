@@ -12,10 +12,10 @@ body {
 .main-container {
   background-image: url("./images/1-background-image.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 0px 0px;
+  background-size: 100% 100%;
   height: 95vh;
+  width: 100%;
+  background-position: 0px 0px;
 }
 
 .runningDog {
@@ -24,7 +24,7 @@ body {
   background-repeat: no-repeat;
   width: 150px;
   height: 85px;
-  left: 15%;
+  left: 0%;
   top: 70%;
 }
 
@@ -32,9 +32,9 @@ body {
   position: absolute;
   background-image: url("./images/flying-birds.gif");
   background-repeat: no-repeat;
-  width: 470px;
+  width: 500px;
   height: 250px;
-  left: 60%;
+  left: 62%;
   top: 0%;
 }
 
@@ -43,7 +43,7 @@ button {
   border: none;
   border-radius: 20px;
   padding: 5px;
-  margin: 5px;
+  margin: 2px;
   /* background: none; */
 }
 
