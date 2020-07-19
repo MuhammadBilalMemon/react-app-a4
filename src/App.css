@@ -10,10 +10,43 @@ body {
 }
 
 .main-container {
-  background-image: url("./images/2-background-image.jpg");
+  background-image: url("./images/1-background-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 0px 0px;
   height: 95vh;
+}
+
+.runningDog {
+  position: absolute;
+  background-image: url("./images/runningDog.gif");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 85px;
+  left: 15%;
+  top: 70%;
+}
+
+.flyingBirds {
+  position: absolute;
+  background-image: url("./images/flying-birds.gif");
+  background-repeat: no-repeat;
+  width: 470px;
+  height: 250px;
+  left: 60%;
+  top: 0%;
+}
+
+button {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  /* background: none; */
+}
+
+button:hover {
+  background-color: green;
 }
